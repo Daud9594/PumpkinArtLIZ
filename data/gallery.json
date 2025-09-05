@@ -1,0 +1,42 @@
+[
+  {
+    "src": "assets/images/placeholders/art1.jpg",
+    "title": "Golden Retriever",
+    "category": "Animals"
+  },
+  {
+    "src": "assets/images/placeholders/art2.jpg",
+    "title": "Black Cat",
+    "category": "Animals"
+  },
+  {
+    "src": "assets/images/placeholders/art3.jpg",
+    "title": "Red Fox",
+    "category": "Animals"
+  },
+  {
+    "src": "assets/images/placeholders/art4.jpg",
+    "title": "Pensive Owl",
+    "category": "Animals"
+  },
+  {
+    "src": "assets/images/placeholders/art5.jpg",
+    "title": "Horse",
+    "category": "Animals"
+  },
+  {
+    "src": "assets/images/placeholders/art6.jpg",
+    "title": "Tabby Kitten",
+    "category": "Animals"
+  },
+  {
+    "src": "assets/images/placeholders/art7.jpg",
+    "title": "Portrait Girl",
+    "category": "People"
+  },
+  {
+    "src": "assets/images/placeholders/art8.jpg",
+    "title": "Forest Study",
+    "category": "People"
+  }
+]

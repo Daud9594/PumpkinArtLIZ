@@ -1,0 +1,44 @@
+{
+  "sizes": [
+    {
+      "id": "a4",
+      "label": "A4",
+      "base": 120
+    },
+    {
+      "id": "a3",
+      "label": "A3",
+      "base": 220
+    },
+    {
+      "id": "a2",
+      "label": "A2",
+      "base": 360
+    }
+  ],
+  "subjects": [
+    {
+      "id": "one",
+      "label": "One subject",
+      "extra": 0
+    },
+    {
+      "id": "two",
+      "label": "Two subjects",
+      "extra": 90
+    }
+  ],
+  "background": [
+    {
+      "id": "none",
+      "label": "Without background",
+      "extra": 0
+    },
+    {
+      "id": "detailed",
+      "label": "Detailed background",
+      "extra": 70
+    }
+  ],
+  "notes": "Prices are indicative and may vary depending on complexity."
+}

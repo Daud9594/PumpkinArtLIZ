@@ -1,0 +1,42 @@
+
+backend:
+  name: github
+  repo: user/repo # replace with 'owner/repo'
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "content"
+    label: "Content"
+    files:
+      - file: "data/content.json"
+        label: "Site content"
+        name: "content"
+        fields:
+          - {label: "Hero Tagline", name: "heroTagline", widget: "string"}
+          - {label: "About Title", name: "aboutTitle", widget: "string"}
+          - {label: "About Text", name: "aboutText", widget: "text"}
+          - {label: "Contact Email", name: "contactEmail", widget: "string"}
+          - {label: "Instagram", name: "instagram", widget: "string"}
+  - name: "gallery"
+    label: "Gallery"
+    folder: "assets/images/uploads/gallery"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Category", name: "category", widget: "string"}
+  - name: "before_after"
+    label: "Before & After"
+    files:
+      - file: "data/before_after.json"
+        label: "Before & After JSON"
+        name: "before_after"
+        fields:
+          - {label: "Items", name: "items", widget: "list", fields:
+              - {label: "Photo (before)", name: "photo", widget: "image"}
+              - {label: "Drawing (after)", name: "drawing", widget: "image"}
+              - {label: "Caption", name: "caption", widget: "string"}
+            }
