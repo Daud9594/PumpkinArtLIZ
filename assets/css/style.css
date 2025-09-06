@@ -1,16 +1,105 @@
+:root {
+    --bg: #FAF7F2;
+    --ink: #2f2f2f;
+    --muted: #7a7a7a;
+    --accent: #F27C22
+}
 
-:root{--bg:#FAF7F2;--ink:#2f2f2f;--muted:#7a7a7a;--accent:#F27C22}
-*{box-sizing:border-box}body{font-family:Inter,system-ui,Arial;margin:0;background:var(--bg);color:var(--ink)}
-.container{max-width:1100px;margin:0 auto;padding:24px}
-.site-header{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:rgba(255,255,255,0.85);position:sticky;top:0}
-.brand{display:flex;align-items:center;gap:12px}
-.logo{height:56px}
-.nav a{margin-left:12px;text-decoration:none;color:var(--ink)}
-.hero{min-height:56vh;display:grid;place-items:center;text-align:center;background-image:url('../images/textures/paper.jpg');background-size:cover;padding:40px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
-.card{background:#fff;padding:16px;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,0.06)}
-.lightbox{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.6)}
-.lightbox.open{display:flex}
-.ba-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px;padding:16px}
-.cart-modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.5)}
-.cart-modal.open{display:flex}
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Inter, system-ui, Arial;
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink)
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.85);
+    position: sticky;
+    top: 0
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.logo {
+    height: 56px
+}
+
+.nav a {
+    margin-left: 12px;
+    text-decoration: none;
+    color: var(--ink)
+}
+
+.hero {
+    min-height: 56vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url('../images/textures/paper.jpg');
+    background-size: cover;
+    padding: 40px
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px
+}
+
+.card {
+    background: #fff;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06)
+}
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.lightbox.open {
+    display: flex
+}
+
+.ba-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 18px;
+    padding: 16px
+}
+
+.cart-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.cart-modal.open {
+    display: flex
+}
